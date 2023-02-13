@@ -1,0 +1,23 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+#flex {
+  display: flex;
+}
+
+.flag-item {
+  flex-direction: column;
+}
+
+.container {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
