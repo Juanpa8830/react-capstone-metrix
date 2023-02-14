@@ -4,7 +4,6 @@ import { getApiCountries } from '../Redux/CountriesReducer';
 import CountryList from '../Components/CountryList';
 import store from '../Redux/ConfigureStore';
 import mic from '../images/mic.png';
-import toparrow from '../images/arrowup.png';
 import config from '../images/gear.png';
 
 let flag = false;
@@ -23,21 +22,28 @@ const Home = () => {
     setData(event.target.value);
   };
 
+  const onSubmit = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <div className="home-page">
-      <div className="header">
+      <div className="header" id="flex">
         <h1 className="main-title">AMERICA&apos;S POPULATION</h1>
-        <form className="input-search">
-          <input
-            className="find-item"
-            type="search"
-            onChange={onChange}
-            placeholder="find your american country"
-          />
-        </form>
-        <div className="icons">
-          <img src={mic} alt="mic" className="icon" />
-          <img src={config} alt="config" className="icon" />
+        <div className="form-section" id="flex">
+          <form className="input-search">
+            <input
+              onSubmit={onSubmit}
+              className="find-item"
+              type="search"
+              onChange={onChange}
+              placeholder=" find your american country"
+            />
+          </form>
+          <div className="icons" id="flex">
+            <img src={mic} alt="mic" className="icon" />
+            <img src={config} alt="config" className="icon" />
+          </div>
         </div>
       </div>
 
@@ -47,9 +53,6 @@ const Home = () => {
         ))}
       />
 
-      <a href="#Home" className="up-arrow">
-        <button type="button"><img src={toparrow} alt="go top" /></button>
-      </a>
     </div>
 
   );

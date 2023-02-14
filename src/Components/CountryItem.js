@@ -6,13 +6,19 @@ const CountryItem = (props) => {
   const { name, flag, population } = props;
 
   return (
-    <Link to={`details/${name}`} className="">
-      <div className="img-container">
-        <img src={flag} alt="flag" />
-      </div>
-      <div className="info">
-        <h2>{name}</h2>
-        <p>{population}</p>
+    <Link to={`details/${name}`} className="text">
+      <div className="card" id="flex">
+        <img src={flag} alt="flag" width="180px" height="130px" />
+        <div className="info">
+          <h2 className="card-name">{name}</h2>
+          <p className="card-p">
+            Population:
+            {' '}
+            {population}
+            {' '}
+            habs
+          </p>
+        </div>
       </div>
     </Link>
   );
