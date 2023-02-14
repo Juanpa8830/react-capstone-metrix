@@ -39,7 +39,7 @@
 
 <div align="center">
 
-  <img src="./Captura1.png" alt="Spacex-project2" width="750"  height="auto" />
+  <img src="./src/images/Captura1.png" alt="Spacex-project2" width="750"  height="auto" />
    
   <img src="./Captura2.png" alt="Spacex-project" width="750"  height="auto" />
 
@@ -64,7 +64,7 @@
 ### Key Features <a name="key-features"></a>
 
 
-- *Add some more detailed information for each cuntry*
+- *Added detailed information for each cuntry*
 
 
 
@@ -135,7 +135,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] *Add dragons Section.*
+- [ ] *Add more details for each country.*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
