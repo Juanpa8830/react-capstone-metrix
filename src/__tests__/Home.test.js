@@ -6,15 +6,13 @@ import Home from '../Pages/Home';
 import '@testing-library/jest-dom';
 import store from '../Redux/ConfigureStore';
 
-
-
 describe('Testing page deployment', () => {
   test('Country components matches snapshot', () => {
     const tree = render(
       <BrowserRouter>
-      <Provider store={store}>
-        <Home />
-      </Provider>
+        <Provider store={store}>
+          <Home />
+        </Provider>
       </BrowserRouter>,
     );
     expect(tree).toMatchSnapshot();

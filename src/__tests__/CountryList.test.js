@@ -6,21 +6,20 @@ import CountryList from '../Components/CountryList';
 import '@testing-library/jest-dom';
 import store from '../Redux/ConfigureStore';
 
-
 const CountriesData = [{
-name: 'Colombia',
-population: 50000000,
-flag: 'https://flagcdn.com/aw.svg',
-id: '12345',
-}]
+  name: 'Colombia',
+  population: 50000000,
+  flag: 'https://flagcdn.com/aw.svg',
+  id: '12345',
+}];
 
 describe('Testing page deployment', () => {
   test('Country components matches snapshot', () => {
     const tree = render(
       <BrowserRouter>
-      <Provider store={store}>
-        <CountryList CountriesData={CountriesData} />
-      </Provider>
+        <Provider store={store}>
+          <CountryList CountriesData={CountriesData} />
+        </Provider>
       </BrowserRouter>,
     );
     expect(tree).toMatchSnapshot();
