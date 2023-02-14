@@ -41,7 +41,7 @@
 
   <img src="./src/images/Captura1.png" alt="Spacex-project2" width="750"  height="auto" />
    
-  <img src="./Captura2.png" alt="Spacex-project" width="750"  height="auto" />
+  <img src="./src/images/Captura2.png" alt="Spacex-project" width="750"  height="auto" />
 
   <br/>
 
