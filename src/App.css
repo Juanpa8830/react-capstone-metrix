@@ -116,3 +116,79 @@ color:rgb(214, 223, 223)
 .countriesgroup {
  width: 100%;
 }
+
+.detailscontainer {  
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  border: 2px solid rgb(5, 42, 250);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.2fr 0.4fr 0.1fr 0.5fr 0.2fr 0.6fr 0.3fr 1.8fr;
+  gap: 3px 3px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Subregion Coordenates"
+    "dato dato2"
+    "Population Car-side"
+    "dato3 dato4"
+    "Start-of-week capital"
+    "dato-5 dato-6"
+    "Coat-of-Arms Coat-of-Arms"
+    "img-escudo img-escudo"
+    ;
+}
+
+.Subregion { 
+  grid-area: Subregion;
+  background-color: blue;
+  color:white;
+ }
+.Coordenates { 
+  grid-area: Coordenates;
+  background-color: blue;
+  color:white;
+ }
+.dato { grid-area: dato; }
+.dato2 { grid-area: dato2; }
+.Population { 
+  grid-area: Population;
+  background-color: blue;
+  color:white;
+ }
+.Car-side { 
+  grid-area: Car-side;
+  background-color: blue;
+  color:white;
+ }
+.dato3 { grid-area: dato3; }
+.dato4 { grid-area: dato4; }
+
+.Start-of-week { 
+  grid-area: Start-of-week;
+  background-color: blue;
+  color:white;
+}
+.capital { 
+  grid-area: capital;
+  background-color: blue;
+  color:white;
+}
+.dato-5 { grid-area: dato-5; }
+.dato-6 { grid-area: dato-6; }
+.Coat-of-Arms { 
+  grid-area: Coat-of-Arms;
+  background-color: blue;
+  color:white;
+  padding-left: 45%;
+ }
+
+.img-escudo { 
+  justify-content: space-around;
+  grid-area: img-escudo;
+  align-self: center;
+}
+
+.arrow-back {
+  align-self: center;
+}
