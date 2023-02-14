@@ -3,21 +3,116 @@
   padding:0;
 }
 
+body {
+background-color: rgba(0, 119, 255, 0.838);
+}
+
 #flex {
   display: flex;
 }
 
-.flag-item {
-  flex-direction: column;
+.home-page {
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 1%;
 }
 
-.container {
-  padding-left: 20%;
-  padding-right: 20%;
+.header {
+  flex-direction: column;
+  height: 25vh;
+  border-bottom: 2px solid rgb(216, 215, 222);
+  justify-content: space-between;
+  background-image: url('./images/Apopulation.PNG' );
+  background-repeat: no-repeat;
+  background-size:cover;
+  align-items: center;
+}
+
+.main-title {
+  padding-left: 25%;
+  padding-top: 5%;
+  /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 38px;
+color:rgb(1, 1, 15);
+
+}
+.form-section {
+  padding-bottom: 5%;
+  padding-left: 10%;
+  gap: 60px;
+
+}
+
+.find-item {
+font-size: 20px;
+width: 120%;
+background-color: rgb(179, 179, 185);
+border-radius: 10px;
+}
+
+.countriesgroup {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 3px 3px; 
+   overflow-y: scroll;
+   height: 70vh;
+}
+
+.countriesgroup::-webkit-scrollbar {
+    -webkit-appearance:initial;
+}
+
+.countriesgroup::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.countriesgroup::-webkit-scrollbar-thumb {
+    background-color: #3755cc;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.countriesgroup::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+.text {
+  text-decoration: none;
+  background-color: blue;
+}
+.text:nth-last-child(4n-6),
+.text:nth-last-child(4n-5) {
+  background-color: rgba(33, 82, 180, 0.759);
+}
+
+.card {
+  border: 2px solid rgba(0, 0, 255, 0.744);
+  column-gap: 20px;
+  }
+
+.card-name {
+  margin-top: 5%;
+  color:white;
+}
+
+.card-p {
+  font-size: 13px;
+  margin-top: 1%;
+color:rgb(214, 223, 223)
+}
+ .icons {
+  gap: 20px;
+ }
+.flag-item {
+  flex-direction: column;
 }
 
 .icon {
   width: 24px;
   height: 24px;
   cursor: pointer;
+}
+.countriesgroup {
+ width: 100%;
 }
