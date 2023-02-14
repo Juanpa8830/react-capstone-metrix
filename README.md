@@ -5,15 +5,15 @@
   <img src="americaIcon.PNG" alt="logo" width="180"  height="auto" />
   <br/>
 
-  <h3><b>SpaceX-project</b></h3>
-  <p>This is a WebApp that shows three pages: rockets, missions and My profile. here, users can reserve rockets and join spacial missions with spaceX company. </p>
+  <h3><b>America's Population</b></h3>
+  <p>This is a WebApp that allow users to look for the countries of the America continent filtered by name. They are also allowed to see additional details of each country in the list.</p>
 
 </div>
 
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[SpaceX-Project\] ](#-SpaceX-Project-)
+- [📖 \[America's Population\] ](#America's Population)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -33,13 +33,15 @@
   - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license-)
 
-# 📖 [SpaceX-project] <a name="about-project"></a>
+# 📖 [America's Population] <a name="about-project"></a>
 
-*[SpaceX-project]* a WebApp that shows three pages: rockets, missions and My profile. here, users can reserve rockets and join spacial missions with spaceX company.
+*[America's Population]* This is a WebApp that allow users to look for the countries of the America continent filtered by name. They are also allowed to see additional details of each country in the list.
+
 <div align="center">
 
-  <img src="./src/images/Screenshotmissions.png" alt="Spacex-project2" width="750"  height="auto" />
-  <img src="./src/images/rockets.png" alt="Spacex-project" width="750"  height="auto" />
+  <img src="./Captura1.png" alt="Spacex-project2" width="750"  height="auto" />
+   
+  <img src="./Captura2.png" alt="Spacex-project" width="750"  height="auto" />
 
   <br/>
 
@@ -62,7 +64,7 @@
 ### Key Features <a name="key-features"></a>
 
 
-- *Dinamically displays the pages that were build by using react function based components.*
+- *Add some more detailed information for each cuntry*
 
 
 
@@ -71,7 +73,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <a href="https://spacex-project.onrender.com" target="_blank" rel="noopener noreferrer">SpaceX-project - Live Demo</a>
+- <a href="https://America's-Population.onrender.com" target="_blank" rel="noopener noreferrer">America's-Population - Live Demo</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -90,7 +92,7 @@ In order to run this project you need `git` locally installed. Please got to [Ge
 Clone this repository to your desired folder:
 ```sh
   cd my-folder
-  git clone git@github.com:juanpa8830/spacex-project.git
+  git clone git@github.com:juanpa8830/react-capstone-metrix.git
 ```
 
 ### Install
@@ -130,11 +132,6 @@ You can deploy this project using:
 👨‍💻 Juan Pablo Guerrero
 
 - GitHub: <a href="https://github.com/juanpa8830" target="_blank" rel="noopener noreferrer">@Juanpa8830</a>
-
-👨‍💻 Mirna Ampuero
-
-- GitHub: <a href="https://github.com/M1rn4" target="_blank" rel="noopener noreferrer">@M1rn4</a>
-
 
 ## 🔭 Future Features <a name="future-features"></a>
 
