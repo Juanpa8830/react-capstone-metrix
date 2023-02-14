@@ -39,9 +39,9 @@
 
 <div align="center">
 
-  <img src="./src/images/Captura1.png" alt="Spacex-project2" width="750"  height="auto" />
+  <img src="./src/images/Captura1.PNG" alt="Spacex-project2" width="750"  height="auto" />
    
-  <img src="./src/images/Captura2.png" alt="Spacex-project" width="750"  height="auto" />
+  <img src="./src/images/Captura2.PNG" alt="Spacex-project" width="750"  height="auto" />
 
   <br/>
 
