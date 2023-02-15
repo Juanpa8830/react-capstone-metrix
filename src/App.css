@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(0, 119, 255, 0.838);
+}
+
+#flex {
+  display: flex;
+}
+
+.home-page {
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 1%;
+}
+
+.header {
+  flex-direction: column;
+  height: 25vh;
+  border-bottom: 2px solid rgb(216, 215, 222);
+  justify-content: space-between;
+  background-image: url('./images/Apopulation.PNG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+
+.main-title {
+  padding-left: 25%;
+  padding-top: 5%;
+
+  /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 38px;
+  color: rgb(1, 1, 15);
+}
+
+.form-section {
+  padding-bottom: 5%;
+  padding-left: 10%;
+  gap: 60px;
+}
+
+.find-item {
+  font-size: 20px;
+  width: 120%;
+  background-color: rgb(179, 179, 185);
+  border-radius: 10px;
+}
+
+.countriesgroup {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3px 3px;
+  overflow-y: scroll;
+  height: 70vh;
+}
+
+.countriesgroup::-webkit-scrollbar {
+  -webkit-appearance: initial;
+}
+
+.countriesgroup::-webkit-scrollbar-thumb {
+  background-color: #3755cc;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.countriesgroup::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.countriesgroup::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+.text {
+  text-decoration: none;
+  background-color: blue;
+}
+
+.text:nth-last-child(4n-6),
+.text:nth-last-child(4n-5) {
+  background-color: rgba(33, 82, 180, 0.759);
+}
+
+.card {
+  border: 2px solid rgba(0, 0, 255, 0.744);
+  column-gap: 20px;
+}
+
+.card-name {
+  margin-top: 5%;
+  color: white;
+}
+
+.card-p {
+  font-size: 13px;
+  margin-top: 1%;
+  color: rgb(214, 223, 223);
+}
+
+.icons {
+  gap: 20px;
+}
+
+.flag-item {
+  flex-direction: column;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.detailscontainer {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  border: 2px solid rgb(5, 42, 250);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.2fr 0.4fr 0.1fr 0.5fr 0.2fr 0.6fr 0.3fr 1.8fr;
+  gap: 3px 3px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Subregion Coordenates"
+    "dato dato2"
+    "Population Car-side"
+    "dato3 dato4"
+    "Start-of-week capital"
+    "dato-5 dato-6"
+    "Coat-of-Arms Coat-of-Arms"
+    "img-escudo img-escudo";
+}
+
+.Subregion {
+  grid-area: Subregion;
+  background-color: blue;
+  color: white;
+}
+
+.Coordenates {
+  grid-area: Coordenates;
+  background-color: blue;
+  color: white;
+}
+.dato { grid-area: dato; }
+.dato2 { grid-area: dato2; }
+
+.Population {
+  grid-area: Population;
+  background-color: blue;
+  color: white;
+}
+
+.Car-side {
+  grid-area: Car-side;
+  background-color: blue;
+  color: white;
+}
+.dato3 { grid-area: dato3; }
+.dato4 { grid-area: dato4; }
+
+.Start-of-week {
+  grid-area: Start-of-week;
+  background-color: blue;
+  color: white;
+}
+
+.capital {
+  grid-area: capital;
+  background-color: blue;
+  color: white;
+}
+.dato-5 { grid-area: dato-5; }
+.dato-6 { grid-area: dato-6; }
+
+.Coat-of-Arms {
+  grid-area: Coat-of-Arms;
+  background-color: blue;
+  color: white;
+  padding-left: 45%;
+}
+
+.img-escudo {
+  justify-content: space-around;
+  grid-area: img-escudo;
+  align-self: center;
+}
+
+.arrow-back {
+  align-self: center;
+}
