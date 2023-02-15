@@ -152,6 +152,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## © Acknowledge <a name="acknowledge"></a>
 
+I'd like to thank Nelson Sakwa whose design was used as a template for my project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
